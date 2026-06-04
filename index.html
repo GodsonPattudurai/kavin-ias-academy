@@ -3,43 +3,345 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kavin IAS Academy</title>
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            background: #000;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-
-        .container {
-            width: 100%;
-            max-width: 1400px;
-            padding: 10px;
-        }
-
-        .brochure {
-            width: 100%;
-            height: auto;
-            display: block;
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
-        }
-    </style>
+    <title>KAVIN IAS Academy - Your Lighthouse to a Brighter Future</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>KAVIN IAS</span>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-<div class="container">
-    <img src="brochure.jpeg" alt="Kavin IAS Academy" class="brochure">
-</div>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Your Lighthouse to a Brighter Future</h1>
+            <h2>SHAPING LEADERS OF TOMORROW'S INDIA</h2>
+            <p>Achieve your dreams with KAVIN IAS Academy - Trusted by thousands of successful candidates</p>
+            <button class="cta-btn">Join Us Today</button>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
 
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About The Academy</h2>
+                <p>Nurturing Excellence in Competitive Exams</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3>Premier Institute</h3>
+                    <p>KAVIN IAS ACADEMY is a premier institute dedicated to nurturing aspirants for a wide range of competitive examinations.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Smart Preparation</h3>
+                    <p>Scientific, strategic and structured approach to maximize results with optimized effort and personalized mentoring.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Integrity Focused</h3>
+                    <p>We help students achieve their dreams and serve the nation with integrity and dedication to excellence.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision Section -->
+    <section class="vision">
+        <div class="container">
+            <h2>Our Vision</h2>
+            <p>To be the most trusted and innovative academy that empowers aspirants to become responsible, compassionate and competent leaders of India.</p>
+            <div class="vision-icon">
+                <i class="fas fa-flag-india"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <div class="section-header">
+                <h2>Courses Offered</h2>
+                <p>Comprehensive preparation for multiple government career paths</p>
+            </div>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>Civil Services</h3>
+                    <ul>
+                        <li>UPSC Civil Services Examination</li>
+                        <li>TNPSC Group I & IV</li>
+                    </ul>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Government Exams</h3>
+                    <ul>
+                        <li>Central Government Exams</li>
+                        <li>NEET & SSC Exams</li>
+                    </ul>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Defence & Services</h3>
+                    <ul>
+                        <li>SSB Interview Guidance</li>
+                        <li>Defence Module Preparation</li>
+                    </ul>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h3>Banking Exams</h3>
+                    <ul>
+                        <li>IBPS & SBI PO & Clerk</li>
+                        <li>RBI Associate Tests</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teaching Approach Section -->
+    <section class="teaching-approach">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Teaching Approach</h2>
+                <p>Proven methodology for guaranteed success</p>
+            </div>
+            <div class="approach-grid">
+                <div class="approach-card" data-delay="0.1s">
+                    <div class="approach-num">01</div>
+                    <h3>Concept Clarity</h3>
+                    <p>From basics to advanced level comprehensive understanding</p>
+                </div>
+                <div class="approach-card" data-delay="0.2s">
+                    <div class="approach-num">02</div>
+                    <h3>Answer Writing Practice</h3>
+                    <p>Regular answer writing sessions with detailed evaluation</p>
+                </div>
+                <div class="approach-card" data-delay="0.3s">
+                    <div class="approach-num">03</div>
+                    <h3>Test Series</h3>
+                    <p>Chapter wise and full-length tests for all major exams</p>
+                </div>
+                <div class="approach-card" data-delay="0.4s">
+                    <div class="approach-num">04</div>
+                    <h3>Current Affairs</h3>
+                    <p>Daily updates, weekly magazines and monthly comprehensive analysis</p>
+                </div>
+                <div class="approach-card" data-delay="0.5s">
+                    <div class="approach-num">05</div>
+                    <h3>Mentorship</h3>
+                    <p>One-to-one guidance, doubt clearing and career counseling</p>
+                </div>
+                <div class="approach-card" data-delay="0.6s">
+                    <div class="approach-num">06</div>
+                    <h3>Success Rate</h3>
+                    <p>Consistently achieving a growing list of successful candidates</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Salient Features</h2>
+                <p>Why Choose KAVIN IAS Academy?</p>
+            </div>
+            <div class="features-list">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Smart Preparation</h3>
+                    <p>Scientific, strategic and structured approach</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Limited Batch Strength</h3>
+                    <p>Small batch size ensures personal attention</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3>Online Batches</h3>
+                    <p>Live interactive classes, recorded sessions available</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-target"></i>
+                    </div>
+                    <h3>Targeting Multiple Exams</h3>
+                    <p>Comprehensive prep for UPSC, TNPSC, SSC and more</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Proven Strategy</h3>
+                    <p>Based on syllabus mastery and answer practice</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>High Success Ratio</h3>
+                    <p>Consistently growing list of successful candidates</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Unique Methodology</h3>
+                    <p>Concept-based, analytical and interactive teaching</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Study Material</h3>
+                    <p>Comprehensive and updated study materials included</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founder Section -->
+    <section class="founder">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Founder</h2>
+            </div>
+            <div class="founder-content">
+                <div class="founder-image">
+                    <div class="founder-placeholder">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                </div>
+                <div class="founder-text">
+                    <h3>G. KAVIN</h3>
+                    <p class="experience">Over 12 Years of Experience in this Field</p>
+                    <p class="quote">"Committed to guiding aspirants with experience, strategy and unwavering support."</p>
+                    <p class="mission">Our mission is to provide smart preparation, personalized mentoring and result-driven environment to help students achieve their dreams and serve the nation with integrity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stat-card">
+                <div class="stat-number">12+</div>
+                <p>Years of Excellence</p>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">1000+</div>
+                <p>Students Guided</p>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">500+</div>
+                <p>Successful Candidates</p>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">95%</div>
+                <p>Success Rate</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>Dream it. Plan it. Work for it. Achieve it. Lead India.</h2>
+            <p>Take the first step towards becoming an IAS officer</p>
+            <button class="cta-btn-large">Join Us Today</button>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p>Get in touch with us</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p>8015161759</p>
+                    <p>8148130202</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>kavinias academy@gmail.com</p>
+                    <p>KAVIN IAS ACADEMY</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Address</h3>
+                    <p>Address can be added here</p>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-telegram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 KAVIN IAS Academy. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
