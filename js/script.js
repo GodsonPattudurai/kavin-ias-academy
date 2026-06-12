@@ -220,17 +220,6 @@ function addRippleEffect() {
     });
 }
 
-@keyframes scaleRipple {
-    0% {
-        transform: scale(0);
-        opacity: 1;
-    }
-    100% {
-        transform: scale(1);
-        opacity: 0;
-    }
-}
-
 // 11. LAZY LOAD WITH BLUR EFFECT
 function lazyLoadImages() {
     const images = document.querySelectorAll('img[data-src]');
@@ -405,13 +394,7 @@ ctaBtns.forEach((btn, index) => {
         this.style.animation = 'pulse 0.5s ease-in-out';
         
         e.preventDefault();
-        const contactSection = document.getElementById('contact');
-        if (contactSection) {
-            contactSection.scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
-            });
-        }
+        window.open('https://forms.gle/CK9A4KTxcGDYb4bg6', '_blank');
     });
 });
 
