@@ -620,9 +620,8 @@ body {
 .stats {
     padding: 5rem 0;
     background: var(--light-bg);
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem;
 }
 
 .stat-card {
